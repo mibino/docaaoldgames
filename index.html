@@ -36,10 +36,27 @@
           <td>[Nintendo64]Super Mario 64(美版)</td>
           <td><a href="https://www.123pan.com/s/5O1cVv-U5Vq3.html" class="mdui-btn mdui-color-theme-accent mdui-ripple">下载</a></td>
         </tr>
+        <tr>
+          <td>[FC/NES]Super Mario Bros(日版)</td>
+          <td><a href="https://www.123pan.com/s/5O1cVv-GqVq3.html" class="mdui-btn mdui-color-theme-accent mdui-ripple">下载</a></td>
+        </tr>
     </table>
     </div>
     <div id="tab2">
-      Tab 2
+    <table id="myTable2">
+        <tr class="header">
+          <th style="width:80%;">模拟器</th>
+          <th style="width:20%;"></th>
+        </tr>
+        <tr>
+          <td>[Nintendo64]Project 64</td>
+          <td><a href="https://www.123pan.com/s/5O1cVv-XqVq3.html" class="mdui-btn mdui-color-theme-accent mdui-ripple">下载</a></td>
+        </tr>
+        <tr>
+          <td>[FC/NES]Super Mario Bros(日版)</td>
+          <td><a href="https://www.123pan.com/s/5O1cVv-GqVq3.html" class="mdui-btn mdui-color-theme-accent mdui-ripple">下载</a></td>
+        </tr>
+    </table>
     </div>
   </div>
 
@@ -62,7 +79,27 @@
       border-bottom: 1px solid #ddd;
     }
      
-    #myTable tr.header, #myTable tr:hover {
+    #myTable2 tr.header, #myTable tr:hover {
+      /* 表格头部设置背景 */
+      background-color: #f1f1f1;
+    }    #myTable {
+      border-collapse: collapse; /* 折叠边框 */
+      width: 100%; /* 全屏幕显示 */
+      border: 1px solid #ddd; /* 设置灰色边框 */
+      font-size: 18px; /* 字体大小 */
+    }
+     
+    #myTable2 th, #myTable2 td {
+      text-align: left; /* 文本靠左对齐 */
+      padding: 12px; /* 设置内边距 */
+    }
+     
+    #myTable2 tr {
+      /* 每一行设置底部边框*/
+      border-bottom: 1px solid #ddd;
+    }
+     
+    #myTable2 tr.header, #myTable2 tr:hover {
       /* 表格头部设置背景 */
       background-color: #f1f1f1;
     }
@@ -91,6 +128,6 @@
       }
     }
 </script>
-  <script src="https://cdn.w3cbus.com/library/mdui/1.0.2/js/mdui.min.js"></script>
+  <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
 </html>
