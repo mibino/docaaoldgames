@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+.header a {
+    color: lightskyblue;
+}
+
+.header h1 {
+    color: white;
+    display: inline;
+}
+
+.appslist a {
+    color: white;
+}
+
+tr {
+    color: white;
+}
+
+table {
+	border:1px solid white;
+}
+
+p {
+    color: white;
+}
